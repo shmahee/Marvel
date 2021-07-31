@@ -1,0 +1,1275 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* GOOGLE FONT LINK HERE */
+
+
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+@import url(https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700&display=swap);
+/* font-family: 'Noto Sans', sans-serif; */
+
+
+@import url(https://fonts.googleapis.com/css2?family=Muli:wght@100;200;300;400;500;600;800;900&display=swap);
+/* font-family: 'Muli', sans-serif; */
+
+
+
+/* GOOGLE FONT END LINK HERE */
+
+
+ul li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+input{
+    outline: none;
+}
+
+.container {
+    width: 75%;
+}
+
+.row {
+    margin: 0;
+}
+
+/*---------- HOME PAGE HEHE  ------------*/
+
+
+
+/* BANNER & BANNER TEXT HERE  */
+.bannertext {}
+
+.banner {
+    height: 100vh;
+}
+
+.background_img {
+    background: url(../img/banner.png);
+    height: 92.5%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bannertext button:hover {
+    background-color: #ffffff;
+    border: 1px solid #444444;
+    transition: all linear 0.3s;
+}
+
+.bannertext button {
+    border-radius: 0;
+    background-color: yellow;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 11px 25px;
+    margin-top: 12px;
+    color: #444444;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-toggler{
+    height: 25px;
+    width: 25px;
+    background: white;
+    border-radius: 50%;
+}
+
+.bannertext p {
+    margin-top: 30px;
+    color: #757575;
+    font-size: 10px;
+}
+
+.bannertext h1 {
+    font-weight: 900;
+    color: #444444;
+    font-size: 30pt;
+    padding-top: 36%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* BANNER & BANNER TEXT END  HERE  */
+
+
+/* NAVIGATION BAR HERE  */
+
+.navigation_bar {
+    background-color: #2a2a2a;
+}
+
+.navigation_bar {
+    height: 7.5%;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+.navbar-brand img {
+    height: 22px;
+}
+
+.navbar-collapse {
+    justify-content: center;
+}
+
+.navbar-collapse .navbar-nav .nav-link {
+    color: white;
+    font-size: 10px;
+    padding: 8px 21px;
+    font-weight: 600;
+}
+
+.navbar-collapse .navbar-nav .nav-link:hover {
+    color: yellow;
+    transition: all linear 0.3s;
+}
+
+/* NAVIGATION BAR END HERE  */
+
+
+
+
+/*------------ HOME PAGE END HEHE  ------------*/
+
+
+
+
+
+
+
+/*------------ ABOUT PAGE PAGE HERE------------ */
+
+
+
+/* about banner part here */
+.about {
+    background: url(../img/banner2.png);
+    height: 1400px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* about banner part end here */
+
+.about_text p {
+    font-size: 32pt;
+    text-align: center;
+    padding-top: 22%;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #444444;
+}
+
+.about_text span {
+    display: block;
+    text-align: center;
+    font-size: 11pt;
+}
+
+
+.about_button2 button {
+    margin-top: 40px;
+    padding: 15px 0px;
+    border-radius: 0;
+    background-color: yellow;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    width: 320px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+.about_button2 button:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition: all linear 0.3s;
+}
+
+
+/* CARD PART HERE  */
+
+.about_card {
+    padding: 0px 5px;
+    cursor: pointer;
+}
+
+.innner_card {
+    height: 350px;
+    background-color: #212121;
+    text-align: center;
+    position: relative;
+}
+
+.innner_card img {
+    padding-top: 25%;
+}
+
+.innner_card h2 {
+    font-size: 25px;
+    color: white;
+    margin-top: 30px;
+}
+
+.desk_card {
+    margin-top: 100px;
+}
+
+/* card overlay  */
+.overlay {
+    background-color: #ffe400;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    transform: scale(0);
+    padding: 0px 25px;
+}
+
+.overlay img {
+    padding-top: 40px;
+}
+
+.overlay h2 {
+    color: white;
+    padding: 0;
+    font-weight: 700;
+}
+
+.overlay p {
+    font-size: 12px;
+    color: white;
+    margin: 17px 0px;
+}
+
+/* card overlay end   */
+
+
+.innner_card:hover .overlay {
+    transition: all cubic-bezier(0, .55, .98, 1) 0.3s;
+    transform: scale(1);
+    box-shadow: 0px 0px 50px -19px rgba(0, 0, 0, 0.72);
+}
+
+/* CARD PART END HERE  */
+
+
+/* liner_heading here  */
+.liner_heading h5 {
+    font-weight: 700;
+    text-align: center;
+    margin-top: 160px;
+    font-size: 20pt;
+    padding: 20px 0px;
+}
+
+/* liner_heading end here  */
+.liner_info {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.liner_info h5 {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.liner_info p {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+
+
+
+/*------------ ABOUT PAGE END PAGE HERE------------ */
+
+
+
+
+/* ------------- RESPONSIVE PART HERE  ------------- */
+
+.responsive {
+    height: 550px;
+    width: 100%;
+    background-color: #fafafa;
+}
+
+#responsive_liner {
+    color: #000;
+    font-size: 21px;
+    left: 0;
+}
+
+.responsive_text {
+    padding-left: 97px;
+    text-align: start;
+}
+
+.responsive_text h3 {
+    font-size: 20px;
+    padding-top: 34%;
+    font-size: 27px;
+    font-weight: 800;
+    color: #212121;
+}
+
+.responsive_text p {
+    font-size: 13px;
+    color: gray;
+    padding: 0;
+    margin: 15px 0px;
+}
+
+.responsive_text p a i {
+    color: gray;
+    padding-right: 10px;
+}
+
+.responsive_text span {
+    font-size: 13px;
+    padding: 10px 0px;
+    color: gray;
+    display: block;
+}
+
+.responsive_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 140px;
+    width: 420px;
+    padding: 0;
+}
+
+.responsive_img {}
+
+.responsive_text button {
+    background-color: #ffe400;
+    font-family: 'Montserrat', sans-serif;
+    border: #ffe400;
+    border-radius: 0%;
+    font-weight: 700;
+    padding: 9px 25px;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.responsive_text button:hover {
+    background-color: black;
+    color: white;
+    transition: all ease-in-out 0.3s;
+}
+
+/* ------------- RESPONSIVE PART END HERE  ------------- */
+
+
+
+
+
+/*--------------- WHO WE ARE HERE ---------------*/
+
+
+.who_we {
+    background: url(../img/girl_banner.png);
+    height: 550px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.who_we img {
+    height: 40px;
+}
+
+.who_we h1 {
+    font-size: 30pt;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 40px 0px 0px;
+}
+
+.who_we p {
+    color: white;
+    padding: 20px 0px;
+}
+
+.who_we button {
+    color: black;
+    background-color: #ffe400;
+    border-radius: 0px;
+    text-decoration: none;
+    font-weight: 600;
+    width: 225px;
+    height: 55px;
+}
+
+.who_we_button{
+    justify-content: flex-end;
+}
+
+.who_we_button2{
+    justify-content: flex-start;
+}
+
+.who_we button:hover {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    transition: all linear 0.3s;
+}
+
+
+/*--------------- WHO WE ARE END HERE ---------------*/
+
+
+
+
+/*--------------- FEATURE PART HERE  ---------------*/
+
+.feature {
+
+    background-color: #FAFAFA;
+    height: 600px;
+    font-family: Poppins, sans-serif;
+}
+
+.outline_h1 {
+    position: relative;
+}
+
+.outline_h1 h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 85px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 49pt;
+    color: #e8e8e8;
+}
+
+.outline_line {
+    text-transform: uppercase;
+    font-weight: 600;
+    position: absolute;
+    bottom: 0;
+    left: 21%;
+    z-index: 1;
+    font-size: 30px;
+    color: #2a2a2a;
+}
+
+
+.onner_text h6 {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.onner_text p {
+    font-size: 12px;
+}
+
+.onner_icon{
+    justify-content: end;
+}
+
+.onner_icon2 a i {
+    color: white;
+    background-color: maroon;
+    padding: 13px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.onner_icon a i {
+    color: white;
+    background-color: yellowgreen;
+    padding: 13px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.onner_icon3 a i {
+    color: white;
+    padding: 13px;
+    background-color: mediumaquamarine;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+/*--------------- FEATURE PART END HERE  ---------------*/
+
+
+
+
+/* WORK PART HERE  */
+
+.work {
+    height: 340px;
+    background-color: #ffe400;
+}
+
+#work {
+    color: #e8d100;
+}
+
+#upper_bk {
+    left: 37%;
+}
+
+.category ul li svg {
+    height: 20px;
+    width: auto;
+    display: inline-flex;
+    cursor: pointer;
+    margin-bottom: 1px;
+}
+
+.category ul {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.category ul li {
+    border: 1px solid black;
+    padding: 10px 13px;
+    margin: 0px 8px;
+    cursor: pointer;
+}
+
+.category ul li:hover {
+    background-color: black;
+    fill: white;
+    transition: all linear 0.3s;
+}
+
+.category ul li:hover .category_name {
+    color: white;
+}
+
+.category ul li a {
+    color: black;
+    font-weight: 600;
+    padding: 10px 25px;
+}
+
+/* WORK PART END HERE  */
+
+
+/* WORK IMAGE PART HERE  */
+.work_image_main {
+    width: 100%;
+    margin: 0;
+}
+
+.work_image {
+    position: relative;
+    padding: 0;
+}
+
+/* OVERLAY PART HERE  */
+
+.work_img_overlay {
+    position: absolute;
+    bottom: 0;
+    height: 20%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.85);
+    transform: scale(0);
+
+}
+
+.work_img_overlay2 h6 {
+    font-weight: 700;
+    color: #444444;
+    margin: 0;
+}
+
+.work_img_overlay2 h6 sub {
+    font-weight: 200;
+    font-family: 'Muli', sans-serif;
+    color: #757575;
+}
+
+
+.work_img_iocn ul {
+    background-color: rgba(255, 255, 255, 0.42);
+    padding: 5px;
+    border-radius: 17px;
+    position: absolute;
+    top: -50%;
+    right: 5%;
+}
+
+.work_img_iocn ul li {
+    padding: 0px 3px;
+}
+
+.work_img_iocn ul li a i {
+    padding: 8px;
+    color: black;
+    border-radius: 50%;
+    background-color: #ffe400;
+    font-size: 13px;
+}
+
+.work_img_iocn ul li a i:hover {
+    background-color: transparent;
+    border: 2px solid #000;
+    color: #000;
+    padding: 6px;
+    transition: all linear 0.3s;
+}
+
+/* OVERLAY PART END  HERE  */
+
+.work_image:hover .work_img_overlay {
+    transform: scale(1);
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.3s;
+}
+
+
+/* WORK IMAGE PART END HERE  */
+
+
+
+
+
+
+
+
+
+/* service part here  */
+
+.service {
+    height: 100%;
+}
+
+.service svg {
+    height: 42px;
+    width: 45px;
+}
+
+.service_img {
+    padding: 0;
+}
+
+#h1_serv {
+    text-align: start;
+}
+
+#service_srohan {
+    font-size: 22px;
+    left: 0;
+}
+
+
+/* SERVICE FIRST ROW PART HERE  */
+/* SETTING LINE 1 */
+
+.sett_line {
+    border-right: 1px solid gray;
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+
+.sett_line a i {
+    font-size: 42pt;
+    color: #444444;
+}
+
+.sett_line h3 {
+    font-size: 19px;
+    color: #444;
+    font-weight: 700;
+    padding: 25px 0px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.sett_line p {
+    font-size: 15px;
+    margin-bottom: 40px;
+    color: #757575;
+}
+
+/* SETTING LINE 2 */
+
+.sett_line2 {
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+
+.sett_line2 a i {
+    font-size: 42pt;
+    color: #444444;
+}
+
+.sett_line2 h3 {
+    font-size: 19px;
+    color: #444;
+    font-weight: 700;
+    padding: 25px 0px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.sett_line2 p {
+    font-size: 15px;
+    margin-bottom: 40px;
+    color: #757575;
+}
+
+/* SERVICE FIRST ROW PART END HERE  */
+
+
+
+
+/* SERVICE SECOND ROW PART HERE  */
+
+/* SETTING LINE 1 */
+
+.sett_line {
+    border-right: 1px solid gray;
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+
+.sett_line a i {
+    font-size: 42pt;
+    color: #444444;
+}
+
+.sett_line h3 {
+    font-size: 18px;
+    color: #444;
+    font-weight: 700;
+    padding: 25px 0px;
+    margin: 0;
+}
+
+.sett_line p {
+    font-size: 15px;
+    margin-bottom: 40px;
+    color: #757575;
+}
+
+/* SETTING LINE 2 */
+
+.sett_line2 {
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+
+.sett_line2 a i {
+    font-size: 42pt;
+    color: #444444;
+}
+
+.sett_line2 h3 {
+    font-size: 18px;
+    color: #444;
+    font-weight: 700;
+    padding: 25px 0px;
+    margin: 0;
+}
+
+.sett_line2 p {
+    font-size: 15px;
+    margin-bottom: 40px;
+    color: #757575;
+}
+
+#secv_p {
+    margin-bottom: 0px;
+}
+
+#sec_row {
+    border-bottom: 0px;
+}
+
+/* SERVICE SECOND ROW PART END HERE  */
+
+/* service part end here  */
+
+
+
+
+
+
+/* -- PRICEING TABLE PART HERE  -- */
+
+.price {
+    background: url(../img/card-banner.png);
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#price {
+    color: #e8d100;
+    font-size: 65pt;
+}
+
+.card {
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+    border: 0px;
+    margin-top: 120px;
+    position: relative;
+}
+
+
+.card_img h1 {
+    /* background-color: yellow; */
+    font-size: 50px;
+    padding: 5px 0px;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+
+
+.card_img h1 sub {
+    font-size: 15px;
+    margin-left: -12px;
+}
+
+.card-body p {
+    font-size: 13px;
+    padding: 50px 0px 15px;
+}
+
+.list-group .list-group-item {
+    font-size: 13px;
+    padding: 20px 0px;
+}
+
+.card-body {
+    border-top: 2px solid #ffe400;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.card-body a {
+    font-size: 15px;
+    font-weight: 800;
+    color: black;
+    text-transform: capitalize;
+}
+
+.list-group-item .card-text {
+    padding-bottom: 80px;
+}
+
+.overflow_card .card_img {
+
+    position: absolute;
+    top: 0;
+    background-color: rgb(0 0 0 / 87%);
+    height: 92%;
+    width: 100%;
+    padding-top: 72%;
+    padding-left: 10%;
+    transform: scale(0);
+}
+
+
+
+/* HOVER PART HERE  */
+
+.card:hover .overflow_card .card_img {
+    transform: scale(1);
+    transition: cubic-bezier(0.19, 1, 0.22, 1) .3s;
+}
+
+.card:hover .card-body {
+    background-color: #e8d100;
+    transition: all linear 0.3s;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+/* -- PRICEING TABLE PART END HERE  -- */
+
+
+
+/* TEAM PART HERE  */
+
+.team {
+    background-color: white;
+    height: 870px;
+}
+
+.team .outline_line {
+    left: 37%;
+}
+
+
+.team_title {
+    text-align: center;
+    background-color: #ebebeb;
+    margin-top: 10px;
+}
+
+.team_title h4 {
+    font-weight: 700;
+    border-bottom: 1px dashed gray;
+    padding: 20px 0px 16px;
+    color: #444;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 0px 20px;
+
+}
+
+.team_title h6 {
+    font-weight: 600;
+    margin: 0;
+    padding-bottom: 8px;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #444;
+    padding: 16px 0px;
+}
+
+
+.team_con {
+    position: relative;
+    margin-top: 120px;
+    
+}
+
+.team_overflow {
+    position: absolute;
+    top: 0;
+    background-color: #e8d100;
+    height: 100%;
+    width: 93%;
+    text-align: center;
+    transform: scale(0);
+}
+
+.team_overflow h4 {
+
+    font-weight: 700;
+    padding: 20px 0px 16px;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    margin: 80px 20px 0px;
+
+}
+
+.team_overflow h6 {
+    font-weight: 600;
+    margin: 0;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+}
+
+.team_overflow p{
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0px 30px;
+    font-size: 13px;
+    text-align: justify;
+    margin: 30px 0px 80px;
+}
+.team_overflow ul{
+    padding: 20px 40px;
+    border-top: 1px dashed #6b6000;
+    margin: 0px 20px;
+}
+.team_overflow ul li a i:hover{
+    color: #000;
+    transition: all linear 0.3s;
+}
+.team_overflow ul li a i{
+    color: #6b6000;
+    font-size: 20px;
+}
+
+/* HOVER part here */
+
+.team_con:hover .team_overflow{
+    transform: scale(1);
+    cursor: pointer;
+    transition: all cubic-bezier(0.39, 0.575, 0.565, 1) 0.3s;
+}
+
+/* HOVER part end here  */
+
+/* TEAM PART END HERE  */
+
+
+
+
+/* -- RECENT PART HERE  -- */
+
+.recent{
+    background: url(../img/recent.jpeg.png);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.recent h2{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 25px;
+    padding-top: 130px;
+}
+.recent h6{
+    color: lightgray;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+#recent_but{
+    justify-content: flex-end;
+}
+.recent_but{
+    padding-top: 45px;
+    z-index: 1;
+    justify-content: flex-start;
+}
+.recent_but a{
+    color: black;
+    background-color: #ffe400;
+    padding: 15px 30px;
+    z-index: -1;
+    margin: 0px 10px;
+    font-weight: 600;
+    height: 54px;
+    text-transform: uppercase;
+}
+.recent_but a:hover{
+    background-color: white;
+    transition: all linear 0.3s;
+}
+/* -- RECENT PART END HERE  -- */
+
+
+
+
+
+
+/*------------- CONTACT PART HERE -------------*/
+
+.contact{
+    height: 840px;
+    background-color: #fff;
+    text-align: center;
+    background-image: url(../img/contact_banner.png);
+}
+#contact_srohan{
+    text-align: center;
+    left: 35%;
+}
+
+.text_inp {
+    margin-top: 30px;
+}
+.text_inp input{
+    border: 1px solid #000;
+    border-color: transparent;
+    padding: 15px;
+    width: 100%;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Poppins' ,sans-serif;
+    border-radius: 0;
+}
+
+.text_inp2{
+    margin-top: 30px;
+}
+
+.text_inp2 input{
+    border: 1px solid;
+    border-color: transparent;
+    padding: 15px 15px 240px;
+    width: 100%;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Poppins' ,sans-serif;
+    border-radius: 0;
+}
+
+.text_button button{
+    
+    padding: 13px 30px;
+    background-color: #ffe400;
+    color: black;
+    font-size: 13px;
+    font-weight: 700;
+    border: 1px solid;
+    border-color: transparent;
+}
+
+.text_button button:hover{
+    color: white;
+    background-color: #000;
+    transition: all linear 0.3s;
+}
+
+.text_button{
+    margin-top: 40px;
+    padding: 0px 12px;
+    text-align: start;
+}
+
+/*------------- CONTACT PART END HERE  -------------*/
+
+
+
+
+
+
+
+/*-------------------- MAP part here  --------------------*/
+
+
+.map{
+    height: 100px;
+    width: 100%;
+    background-color: #ffe400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.map .dropdown button{
+    color: black;
+    font-weight: 700;
+    background-color: #ffe400;
+    border: 0;
+}
+
+.btn-check:active+.btn-secondary, .btn-check:checked+.btn-secondary, .btn-secondary.active, .btn-secondary:active, .show>.btn-secondary.dropdown-toggle {
+    color: black;
+    background-color: #ffe400;
+    border: 0;
+    outline: none;
+}
+
+
+/*-------------------- MAP part end here  --------------------*/
+
+
+
+
+
+/* FOOTER PART HERE  */
+
+
+.footer{
+    height: 300px;
+    background-color: #212121;
+}
+
+.footer .container .row{
+    align-items: center;
+}
+
+.phone_icon{
+    text-align: center;
+    padding-top: 10%;
+    height: 300px;
+}
+
+.phone_icon2{
+    text-align: center;
+    padding-top: 10%;
+    height: 300px;
+}
+
+.phone_icon img{
+    height: 65px;
+    margin-bottom: 15px;
+    border: 2px solid #f0f0f0;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+}
+
+.phone_icon2 img{
+    height: 65px;
+    margin-bottom: 15px;
+    border: 2px solid #f0f0f0;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+}
+
+.phn_number p b{
+    color: white;
+}
+.phn_number p{
+    color: white;
+}
+
+.footer_icon ul{
+    margin: 0px 90px;
+    font-size: 22px;
+}
+
+.footer_icon ul li a i{
+    color: #fff;
+}
+/* FOOTER PART END HERE  */
+
+
+/* COPYRIGHT PART HERE  */
+
+.copyright{
+    text-align: center;
+    background-color: #2e2d2d;
+    height: 40px;
+}
+.copyright p{
+    color: white;
+    font-weight: 100;
+    font-family: "Poppins",sans-serif;
+    line-height: 40px;
+}
+
+
+/* COPYRIGHT PART END HERE  */

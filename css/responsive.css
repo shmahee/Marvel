@@ -1,0 +1,999 @@
+.container {
+    width: 85%;
+}
+
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (min-width: 320px) and (max-width: 575px) {
+
+
+
+    .navbar-brand img {
+        height: 20px;
+    }
+
+    .navigation_bar {
+        height: 56px;
+    }
+
+    .navbar-nav {
+        background-color: #212121;
+        text-align: center;
+        padding: 15px 0px;
+        margin-top: 13%;
+    }
+
+    .bannertext {
+        display: grid;
+    }
+
+    .bannertext h1 {
+        font-weight: 900;
+        color: #444444;
+        font-size: 22pt;
+        padding-top: 45%;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+    }
+
+    .bannertext p {
+        text-align: center;
+    }
+
+
+
+
+
+
+    /* NEXT PAGE HERE  */
+
+    .innner_card {
+        margin-bottom: 20px;
+    }
+
+    .about {
+        height: auto;
+    }
+
+    .card {
+        height: 100%;
+    }
+
+    .responsive_text {
+        padding: 0;
+    }
+
+    .liner_heading h5 {
+        font-size: 23pt;
+        padding: 20px 0px 32px;
+    }
+
+    #responsive_liner {
+        font-size: 17px;
+        left: 0;
+        bottom: -8%;
+    }
+
+    .outline_h1 h1 {
+        font-size: 27pt;
+    }
+
+    .responsive_img {
+        display: none;
+    }
+
+    .who_we {
+        height: auto;
+    }
+
+    .who_we img {
+        height: 30px;
+        margin-top: 50px;
+    }
+
+    .who_we p {
+        color: white;
+        padding: 36px 0px;
+        text-align: justify;
+        font-size: 14px;
+    }
+
+    .who_we_button {
+        margin-bottom: 20px;
+        justify-content: center;
+    }
+
+    .who_we_button2 {
+        margin-bottom: 100px;
+        justify-content: center;
+    }
+
+
+
+    .feature {
+        height: auto;
+    }
+
+    .outline_line {
+        display: none;
+    }
+
+    .onner_icon {
+        justify-content: center;
+        padding-bottom: 15px;
+    }
+
+    .onner_icon2 {
+        justify-content: center;
+        padding-bottom: 15px;
+    }
+
+    .onner_icon3 {
+        justify-content: center;
+        padding-bottom: 15px;
+    }
+
+    .onner_text h6 {
+        text-align: center;
+    }
+
+    .onner_text p {
+        text-align: justify;
+    }
+
+    .menu_icon_svg {
+        display: none;
+    }
+
+    #price {
+        font-size: 55px;
+    }
+
+    .card {
+        margin-top: 40px;
+    }
+
+    .work {
+        height: auto;
+    }
+
+    .category ul {
+        display: grid;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .category ul li {
+        margin: 5px 0px;
+    }
+
+    .price {
+        height: auto;
+    }
+
+    .card-body {
+        height: 20px;
+    }
+
+    .card-body a {
+        line-height: 40px;
+    }
+
+    .sett_line {
+        border: 0;
+    }
+
+    .sett_line2 {
+        border: 0;
+    }
+
+    .service_img {
+        display: none;
+    }
+
+    #h1_serv {
+        font-size: 36px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .overflow_card .card_img {
+        height: 89%;
+    }
+
+    .price .container .row .col-md-4 {
+        margin-bottom: 50px;
+    }
+
+    /* TEAM PART HERE  */
+
+    .team {
+        height: auto;
+    }
+
+    .team_overflow h4 {
+        margin: 0px 20px 0px;
+    }
+
+    .team_overflow p {
+        margin: 10px 0px;
+    }
+
+    .team_overflow ul li a i {
+        padding: 0px 5px;
+    }
+
+    .team_con {
+        margin-bottom: 30px;
+    }
+
+    /* TEAM PART END HERE  */
+
+    /* RECENT PART HERE  */
+
+    .recent {
+        height: auto;
+    }
+
+    .recent h2 {
+        padding: 30px 0px 0px;
+    }
+
+    .recent h6 {
+        padding-top: 20px;
+    }
+
+    .recent_but {
+        padding: 45px 0px;
+        justify-content: center;
+    }
+
+    #recent_but {
+        padding: 45px 0px 15px;
+        justify-content: center;
+    }
+
+    /* RECENT PART END HERE  */
+
+
+    /* CONTACT PART HERE  */
+
+    .contact {
+        height: auto;
+    }
+
+    .text_button {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+
+    /* CONTACT PART END HERE  */
+
+
+    /* FOOTER PART HERE  */
+
+    .footer {
+        height: auto;
+    }
+
+    .phone_icon {
+        height: auto;
+    }
+
+    .phone_icon2 {
+        height: auto;
+    }
+
+    .footer_icon ul li a i {
+        padding: 20px 10px;
+    }
+
+    /* FOOTER PART END HERE  */
+}
+
+/* No media query for `xs` since this is the default in Bootstrap */
+
+
+
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+
+
+
+
+    .navbar-brand img {
+        height: 20px;
+    }
+
+    .navigation_bar {
+        height: 56px;
+    }
+
+    .navbar-nav {
+        background-color: #212121;
+        text-align: center;
+        padding: 15px 0px;
+        margin-top: 13%;
+    }
+
+    .bannertext {
+        display: grid;
+    }
+
+    .bannertext h1 {
+        font-weight: 900;
+        color: #444444;
+        font-size: 22pt;
+        padding-top: 45%;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+    }
+
+    .bannertext p {
+        text-align: center;
+    }
+
+
+
+
+
+
+    /* NEXT PAGE HERE  */
+
+    .innner_card {
+        margin-bottom: 20px;
+    }
+
+    .about {
+        height: auto;
+    }
+
+    .card {
+        height: 100%;
+    }
+
+    .responsive_text {
+        padding: 0;
+    }
+
+    .liner_heading h5 {
+        font-size: 23pt;
+        padding: 20px 0px 32px;
+    }
+
+    #responsive_liner {
+        font-size: 17px;
+        left: 0;
+        bottom: -8%;
+    }
+
+    .outline_h1 h1 {
+        font-size: 27pt;
+    }
+
+    .responsive_img {
+        display: none;
+    }
+
+    .about_button2{
+        justify-content: center;
+    }
+
+    .who_we {
+        height: auto;
+    }
+
+    .who_we img {
+        height: 30px;
+        margin-top: 50px;
+    }
+
+    .who_we p {
+        color: white;
+        padding: 36px 0px;
+        text-align: justify;
+        font-size: 14px;
+    }
+
+    .who_we_button {
+        margin-bottom: 20px;
+        justify-content: center;
+    }
+
+    .who_we_button2 {
+        margin-bottom: 100px;
+        justify-content: center;
+    }
+
+
+
+    .feature {
+        height: auto;
+    }
+
+    .outline_line {
+        display: none;
+    }
+
+    .onner_icon {
+        justify-content: center;
+        padding-bottom: 15px;
+    }
+
+    .onner_icon2 {
+        justify-content: center;
+        padding-bottom: 15px;
+    }
+
+    .onner_icon3 {
+        justify-content: center;
+        padding-bottom: 15px;
+    }
+
+    .onner_text h6 {
+        text-align: center;
+    }
+
+    .onner_text p {
+        text-align: center;
+    }
+
+    .menu_icon_svg {
+        display: none;
+    }
+
+    #price {
+        font-size: 55px;
+    }
+
+    .card {
+        margin-top: 40px;
+    }
+
+    .work {
+        height: auto;
+    }
+
+    .category ul {
+        display: grid;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .category ul li {
+        margin: 5px 0px;
+    }
+
+    .price {
+        height: auto;
+    }
+
+    .card-body {
+        height: 20px;
+    }
+
+    .card-body a {
+        line-height: 40px;
+    }
+
+    .sett_line {
+        border: 0;
+    }
+
+    .sett_line2 {
+        border: 0;
+    }
+
+    .service_img {
+        display: none;
+    }
+
+    #h1_serv {
+        font-size: 36px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .overflow_card .card_img {
+        height: 91%;
+    }
+
+    .price .container .row .col-md-4 {
+        margin-bottom: 50px;
+    }
+
+    /* TEAM PART HERE  */
+
+    .team {
+        height: auto;
+    }
+
+    .team_overflow h4 {
+        margin: 60px 10px 0px;
+    }
+
+    .team_overflow p {
+        margin: 94px 47px;
+    }
+
+    .team_overflow ul li a i {
+        padding: 0px 5px;
+    }
+
+    .team_con {
+        margin-bottom: 30px;
+    }
+
+
+    .team_overflow{
+        width: 95%;
+    }
+
+    /* TEAM PART END HERE  */
+
+    /* RECENT PART HERE  */
+
+    .recent {
+        height: auto;
+    }
+
+    .recent h2 {
+        padding: 30px 0px 0px;
+    }
+
+    .recent h6 {
+        padding-top: 20px;
+    }
+
+    .recent_but {
+        padding: 45px 0px;
+        justify-content: center;
+    }
+
+    #recent_but {
+        padding: 45px 0px 15px;
+        justify-content: center;
+    }
+
+    /* RECENT PART END HERE  */
+
+
+    /* CONTACT PART HERE  */
+
+    .contact {
+        height: auto;
+    }
+
+    .text_button {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+
+    /* CONTACT PART END HERE  */
+
+
+    /* FOOTER PART HERE  */
+
+    .footer {
+        height: auto;
+    }
+
+    .phone_icon {
+        height: auto;
+    }
+
+    .phone_icon2 {
+        height: auto;
+    }
+
+    .footer_icon ul li a i {
+        padding: 20px 10px;
+    }
+
+    /* FOOTER PART END HERE  */
+
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    
+
+
+    .navbar-brand img {
+        height: 20px;
+    }
+
+    .navigation_bar {
+        height: 56px;
+    }
+
+    .navbar-nav {
+        background-color: #212121;
+        text-align: center;
+        padding: 15px 0px;
+        margin-top: 13%;
+    }
+
+    .bannertext {
+        display: grid;
+    }
+
+    .bannertext h1 {
+        font-weight: 900;
+        color: #444444;
+        font-size: 22pt;
+        padding-top: 45%;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+    }
+
+    .bannertext p {
+        text-align: center;
+    }
+
+
+
+
+
+
+    /* NEXT PAGE HERE  */
+
+    .innner_card {
+        margin-bottom: 20px;
+    }
+
+    .about {
+        height: auto;
+    }
+
+    .card {
+        height: 100%;
+    }
+
+    .responsive_text {
+        padding: 0;
+    }
+
+    .liner_heading h5 {
+        font-size: 23pt;
+        padding: 20px 0px 32px;
+    }
+
+    #responsive_liner {
+        font-size: 17px;
+        left: 0;
+        bottom: -8%;
+    }
+
+    .outline_h1 h1 {
+        font-size: 27pt;
+    }
+
+
+    .responsive_img {
+        width: 300px;
+    }
+    .responsive_img img{
+        height: auto;
+        width: 380px;
+    }
+
+    .who_we {
+        height: auto;
+    }
+
+    .who_we img {
+        height: 30px;
+        margin-top: 50px;
+    }
+
+    .who_we p {
+        color: white;
+        padding: 36px 0px;
+        text-align: justify;
+        font-size: 14px;
+    }
+
+    .who_we_button {
+        margin-bottom: 20px;
+        justify-content: center;
+    }
+
+    .who_we_button2 {
+        margin-bottom: 100px;
+        justify-content: center;
+    }
+
+
+
+    .feature {
+        height: auto;
+    }
+
+    .outline_line {
+        display: none;
+    }
+
+    .onner_icon {
+        justify-content: center;
+        padding-bottom: 15px;
+    }
+
+    .onner_icon2 {
+        justify-content: center;
+        padding-bottom: 15px;
+    }
+
+    .onner_icon3 {
+        justify-content: center;
+        padding-bottom: 15px;
+    }
+
+    .onner_text h6 {
+        text-align: center;
+    }
+
+    .onner_text p {
+        text-align: justify;
+    }
+
+    .menu_icon_svg {
+        display: none;
+    }
+
+    #price {
+        font-size: 55px;
+    }
+
+    .card {
+        margin-top: 40px;
+    }
+
+    .work {
+        height: auto;
+    }
+
+    .category ul {
+        display: grid;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .category ul li {
+        margin: 5px 0px;
+    }
+
+    .price {
+        height: auto;
+    }
+
+    .card-body {
+        height: 20px;
+    }
+
+    .card-body a {
+        line-height: 40px;
+    }
+
+    .sett_line2 p{
+        display: none;
+    }
+
+    .sett_line p{
+        display: none;
+    }
+
+    .sett_line {
+        border: 0;
+    }
+
+    .sett_line2 {
+        border: 0;
+    }
+
+    .service_img{
+        display: flex;
+    }
+
+    #h1_serv {
+        font-size: 36px;
+        text-align: start;
+        margin-bottom: 0px;
+        padding-top: 70px;
+        padding-left: 50px;
+    }
+
+    .overflow_card .card_img {
+        height: 89%;
+    }
+
+    .price .container .row .col-md-4 {
+        margin-bottom: 50px;
+    }
+
+    /* TEAM PART HERE  */
+
+    .team {
+        height: auto;
+    }
+
+    .team_overflow h4 {
+        margin: 60px 10px 0px;
+    }
+
+    .team_overflow p {
+        display: none;
+    }
+
+    .team_overflow ul li a i {
+        padding: 0px 5px;
+    }
+
+    .team_con {
+        margin-bottom: 30px;
+    }
+
+
+    .team_overflow{
+        width: 95%;
+    }
+
+    /* TEAM PART END HERE  */
+
+    /* RECENT PART HERE  */
+
+    .recent {
+        height: auto;
+    }
+
+    .recent h2 {
+        padding: 30px 0px 0px;
+    }
+
+    .recent h6 {
+        padding-top: 20px;
+    }
+
+    .recent_but {
+        padding: 45px 0px;
+        justify-content: flex-start;
+    }
+
+    #recent_but {
+        padding: 45px 0px 15px;
+        justify-content: flex-end;
+        height: 54px;
+    }
+
+    /* RECENT PART END HERE  */
+
+
+    /* CONTACT PART HERE  */
+
+    .contact {
+        height: auto;
+    }
+
+    .text_button {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+
+    /* CONTACT PART END HERE  */
+
+
+    /* FOOTER PART HERE  */
+
+    .footer {
+        height: auto;
+    }
+
+    .phone_icon {
+        height: auto;
+    }
+
+    .phone_icon2 {
+        height: auto;
+    }
+
+    .footer_icon ul li a i {
+        padding: 20px 10px;
+    }
+
+    /* FOOTER PART END HERE  */
+
+}
+
+
+
+/* // Large devices (desktops, 992px and up) */
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .responsive_text {
+        padding: 0;
+    }
+
+    .liner_heading h5 {
+        font-size: 23pt;
+        padding: 20px 0px 32px;
+    }
+
+    #responsive_liner {
+        font-size: 17px;
+        left: 0;
+        bottom: -8%;
+    }
+
+    .outline_h1 h1 {
+        font-size: 27pt;
+    }
+
+    .responsive_img {
+        width: 328px;
+    }
+    .responsive_img img{
+        height: auto;
+        width: 450px;
+    }
+
+    /* RESPONSIVE PART END HERE  */
+
+
+    /* FEATURE PART HERE  */
+
+    .feature{
+        height: auto;
+    }
+
+    .outline_line h1{
+        font-size: 45pt;
+    }
+    /* FEATURE PART END HERE  */
+
+    
+    /* TEAM PART */
+
+    #overflow{
+        margin-top: 30px;
+    }
+
+    .team_overflow p{
+        margin: 30px 0px 20px;
+    }
+
+    /* TEAM PART END  */
+
+
+    /* SERVICE PART  */
+
+    .outline_h1 h1{
+        font-size: 45pt;
+    }
+
+
+    .service_img{
+        padding-top: 18%;
+    }
+
+    /* SERVICE PART END */
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399px) {
+    ...
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+    ...
+}
